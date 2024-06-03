@@ -1,3 +1,128 @@
+.component2-container {
+  width: 100%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  background-color: var(--dl-color-theme-neutral-light);
+}
+.component2-navbar-interactive {
+  fill: var(--dl-color-theme-secondary1);
+  color: var(--dl-color-theme-secondary1);
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: #fffdfd;
+}
+.component2-image1 {
+  height: 3rem;
+}
+.component2-desktop-menu {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+.component2-navlink {
+  display: contents;
+}
+.component2-links {
+  gap: var(--dl-space-space-twounits);
+  flex: 1;
+  display: flex;
+  align-items: center;
+  margin-left: var(--dl-space-space-twounits);
+  flex-direction: row;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+.component2-link1 {
+  color: #f9f9f9;
+}
+.component2-burger-menu {
+  display: none;
+}
+.component2-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.component2-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: var(--dl-space-space-twounits);
+  z-index: 100;
+  position: absolute;
+  flex-direction: column;
+  background-color: var(--dl-color-theme-neutral-light);
+}
+.component2-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.component2-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.component2-logo {
+  height: 3rem;
+}
+.component2-close-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.component2-icon2 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.component2-links1 {
+  gap: var(--dl-space-space-unit);
+  flex: 0 0 auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.component2-buttons {
+  gap: var(--dl-space-space-twounits);
+  display: flex;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: center;
+}
+@media(max-width: 767px) {
+  .component2-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .component2-desktop-menu {
+    display: none;
+  }
+  .component2-burger-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media(max-width: 479px) {
+  .component2-navbar-interactive {
+    padding: var(--dl-space-space-unit);
+  }
+  .component2-mobile-menu {
+    padding: var(--dl-space-space-unit);
+  }
+}
+
 .hero84-header26 {
   gap: var(--dl-space-space-twounits);
 }
@@ -43,6 +168,17 @@
   align-items: center;
   flex-direction: column;
 }
+.security-risk-management-text {
+  margin: var(--dl-space-space-twounits);
+}
+.security-risk-management-text11 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.security-risk-management-text12 {
+  font-size: 40px;
+  font-weight: 700;
+}
 .security-risk-management-row {
   align-items: flex-start;
 }
@@ -86,12 +222,19 @@
   background-image: url('https://images.unsplash.com/photo-1566305977571-5666677c6e98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzM1NDM3NXw&ixlib=rb-4.0.3&q=80&w=1080');
   background-position: center;
 }
+.security-risk-management-pasted-image1 {
+  width: 100%;
+}
 .security-risk-management-content1 {
-  align-self: stretch;
+  align-self: center;
   align-items: flex-start;
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
 }
 .security-risk-management-feature2-title {
   align-self: center;
+  text-align: center;
 }
 .security-risk-management-feature2-description {
   align-self: center;
@@ -100,7 +243,7 @@
 .security-risk-management-feature3 {
   flex: 1;
 }
-.security-risk-management-feature3-image {
+.security-risk-management-pasted-image2 {
   height: 243px;
 }
 .security-risk-management-content2 {
@@ -109,6 +252,7 @@
 }
 .security-risk-management-feature3-title {
   align-self: center;
+  text-align: center;
 }
 .security-risk-management-feature3-description {
   align-self: center;
@@ -134,6 +278,9 @@
   background-image: url('https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzM1NDM3Nnw&ixlib=rb-4.0.3&q=80&w=1080');
   background-position: center;
 }
+.security-risk-management-pasted-image3 {
+  width: 341px;
+}
 .security-risk-management-content3 {
   align-self: stretch;
   align-items: flex-start;
@@ -157,12 +304,17 @@
   background-image: url('https://images.unsplash.com/photo-1566305977571-5666677c6e98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcxNzM1NDM3NXw&ixlib=rb-4.0.3&q=80&w=1080');
   background-position: center;
 }
+.security-risk-management-pasted-image4 {
+  width: 398px;
+  height: 245px;
+}
 .security-risk-management-content4 {
   align-self: stretch;
   align-items: flex-start;
 }
 .security-risk-management-feature2-title1 {
   align-self: center;
+  text-align: center;
 }
 .security-risk-management-feature2-description1 {
   align-self: center;
@@ -171,8 +323,9 @@
 .security-risk-management-feature31 {
   flex: 1;
 }
-.security-risk-management-feature3-image1 {
-  height: 243px;
+.security-risk-management-pasted-image5 {
+  width: 403px;
+  height: 240px;
 }
 .security-risk-management-content5 {
   align-self: stretch;
@@ -180,34 +333,13 @@
 }
 .security-risk-management-feature3-title1 {
   align-self: center;
+  text-align: center;
 }
 .security-risk-management-feature3-description1 {
   align-self: center;
   text-decoration: none;
 }
 .security-risk-management-feature32 {
-  flex: 1;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-}
-.security-risk-management-row2 {
-  align-items: flex-start;
-}
-.security-risk-management-feature12 {
-  flex: 1;
-}
-.security-risk-management-container3 {
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
-.security-risk-management-content6 {
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  align-self: stretch;
-  align-items: flex-start;
-}
-.security-risk-management-feature22 {
   flex: 1;
   border: 2px dashed rgba(120, 120, 120, 0.4);
 }
@@ -218,16 +350,10 @@
   .security-risk-management-feature2-image {
     height: 260px;
   }
-  .security-risk-management-feature3-image {
-    height: 260px;
-  }
   .security-risk-management-feature1-image1 {
     height: 260px;
   }
   .security-risk-management-feature2-image1 {
-    height: 260px;
-  }
-  .security-risk-management-feature3-image1 {
     height: 260px;
   }
 }
@@ -263,12 +389,6 @@
     width: auto;
   }
   .security-risk-management-feature32 {
-    width: auto;
-  }
-  .security-risk-management-row2 {
-    flex-direction: column;
-  }
-  .security-risk-management-feature22 {
     width: auto;
   }
 }

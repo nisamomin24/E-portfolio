@@ -1,0 +1,25 @@
+.hero825-header26 {
+  gap: var(--dl-space-space-twounits);
+}
+.hero825-max-width {
+  align-self: center;
+}
+.hero825-column {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.hero825-content {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.hero825-text {
+  text-align: center;
+}
