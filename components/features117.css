@@ -1,0 +1,110 @@
+.features117-layout251 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.features117-max-width {
+  gap: var(--dl-space-space-threeunits);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.features117-column {
+  gap: var(--dl-space-space-halfunit);
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.features117-content {
+  gap: 48px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.features117-row {
+  align-items: flex-start;
+}
+.features117-feature1 {
+  flex: 1;
+}
+.features117-content1 {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.features117-feature2 {
+  flex: 1;
+}
+.features117-content2 {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.features117-feature3 {
+  flex: 1;
+}
+.features117-content3 {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.features117-actions {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+}
+@media(max-width: 991px) {
+  .features117-section-title {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .features117-feature1-image {
+    height: 260px;
+  }
+  .features117-feature2-image {
+    height: 260px;
+  }
+  .features117-feature3-image {
+    height: 260px;
+  }
+}
+@media(max-width: 767px) {
+  .features117-column {
+    width: 100%;
+  }
+  .features117-text1 {
+    text-align: center;
+  }
+  .features117-row {
+    flex-direction: column;
+  }
+  .features117-feature1-image {
+    width: 100%;
+  }
+  .features117-feature2 {
+    width: auto;
+  }
+  .features117-feature2-image {
+    width: 100%;
+  }
+  .features117-feature3 {
+    width: auto;
+  }
+  .features117-actions {
+    flex-wrap: wrap;
+  }
+}
+@media(max-width: 479px) {
+  .features117-actions {
+    width: 100%;
+    flex-direction: column;
+  }
+  .features117-button {
+    width: 100%;
+  }
+  .features117-button1 {
+    width: 100%;
+  }
+}

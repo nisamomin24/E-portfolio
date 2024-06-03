@@ -1,0 +1,40 @@
+.hero813-header26 {
+  gap: var(--dl-space-space-twounits);
+}
+.hero813-max-width {
+  align-self: center;
+}
+.hero813-column {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.hero813-content {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.hero813-text {
+  text-align: center;
+}
+
+.final-project-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.final-project-container1 {
+  width: 981px;
+  height: 1116px;
+}
+.final-project-container2 {
+  display: contents;
+}

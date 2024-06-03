@@ -1,0 +1,36 @@
+.hero820-header26 {
+  gap: var(--dl-space-space-twounits);
+}
+.hero820-max-width {
+  align-self: center;
+}
+.hero820-column {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.hero820-content {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.hero820-text {
+  text-align: center;
+}
+.hero820-actions {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+}
+@media(max-width: 479px) {
+  .hero820-actions {
+    width: 100%;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,37 @@
+.hero822-header26 {
+  gap: var(--dl-space-space-twounits);
+}
+.hero822-max-width {
+  align-self: center;
+}
+.hero822-column {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.hero822-content {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.hero822-text {
+  text-align: center;
+}
+
+.research-proposal-presentation-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.research-proposal-presentation-video {
+  width: 320px;
+  height: 180px;
+}

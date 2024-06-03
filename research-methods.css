@@ -1,0 +1,40 @@
+.hero817-header26 {
+  gap: var(--dl-space-space-twounits);
+}
+.hero817-max-width {
+  align-self: center;
+}
+.hero817-column {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.hero817-content {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.hero817-text {
+  text-align: center;
+}
+
+.research-methods-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.research-methods-container1 {
+  width: 995px;
+  height: 1069px;
+}
+.research-methods-container2 {
+  display: contents;
+}

@@ -1,0 +1,25 @@
+.hero89-header26 {
+  gap: var(--dl-space-space-twounits);
+}
+.hero89-max-width {
+  align-self: center;
+}
+.hero89-column {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.hero89-content {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.hero89-text {
+  text-align: center;
+}
